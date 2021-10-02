@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row justify-content-center p-4">
+      
+        
+        <div class="col-md-6">
+            <form (ngSubmit)="register()">
+            <h3>Register</h3>
+            <div class="form-group p-2">
+                <input type="name" name="name" class="form-control" [(ngModel)]="fName" placeholder="First Name" required>
+            </div>
+            <div class="form-group p-2">
+                <input type="name" name="name" class="form-control" [(ngModel)]="lName" placeholder="Last Name" required>
+            </div>
+            <div class="form-group p-2">
+                <input type="email" name="email" class="form-control" [(ngModel)]="email" placeholder="Email Id" required>
+            </div>
+            <div class="form-group p-2">
+                <input type="password" name="password" class="form-control" [(ngModel)]="password" placeholder="Password"
+                    required>
+            </div>
+            <div class="form-group p-2">
+                <input type="name" name="name" class="form-control" [(ngModel)]="program" placeholder="Program Name" required>
+            </div>
+         
+            <div class="form-group p-2">
+                <button type="submit" class="btn btn-primary">Register</button>
+                <div class="register"><a href="#" routerLink="/login">Back To Login</a></div>
+            </div>
+            </form>
+
+            <!-- <input type="file" (change)="upload($event)" accept="*.png.jpg">
+            <button (click)="uploadImage()">UPload Image</button>
+           
+            <hr> -->
+
+            <div class="form-group">
+                <p *ngIf="errorMessage.length > 0" class="text-danger">
+                    {{errorMessage}}</p>
+                
+                <p *ngIf="error.message.length > 0" class="text-danger">
+                    {{error.message}} </p>
+
+                    <p *ngIf="message.length > 0" class="text-info">
+                        {{message}} </p>
+            </div>
+        </div>
+
+    </div>
+</div>
