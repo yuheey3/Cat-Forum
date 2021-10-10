@@ -1,0 +1,99 @@
+.jumbotron{
+
+    background-image: url("../../assets/Cat-Banner.jpg");
+    width: 30000px;
+
+}
+.home__body__contentMiddle__center {
+    padding: 0 10px;
+    min-height: 20px;
+    width: 100%;
+    align-self: center;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+}
+
+    .post-message {
+      border-radius: 10px;
+      display: flex;
+      margin: 0 250px 0 250px;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+      .post-message-header {
+        width:100%;
+        display: flex;
+        align-items: center;
+      }
+
+        form {
+          flex:1;
+        }
+
+        form > input.on-your-mind {
+          background-color: #F0F2F5;
+          display: inline-block;
+          outline: none;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 20px;
+          width: 100%;
+        }
+      
+      .card-body {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px 40px;
+        width: 90%;
+        margin-top: 10px;
+        align-items: center;
+      }
+
+       .home__body__contentMiddle__center > div {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+          gap: 15px;
+        }
+
+          mat-icon {
+            font-size: xx-large;
+          }
+
+          span {
+            font-size: 18px;
+            padding: 0 45px 0 45px;
+          }
+        
+      .posts__header {
+        display:flex;
+      }
+        img {
+
+        }
+
+        .posts__header__right {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+
+          h3 {
+            font-weight: 600;
+            font-size: 15px;
+            text-transform: capitalize;
+            margin-bottom: 0;
+          }
+        
+      .posts__body {
+        margin-top: 10px;
+      }
+    
+  
+
+
