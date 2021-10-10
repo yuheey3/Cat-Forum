@@ -1,9 +1,13 @@
 .jumbotron{
 
-    background-image: url("../../assets/Cat-Banner.jpg");
-    width: 30000px;
+    background-image: url("../../assets/toryBanner3.png");
+    
 
 }
+.jumbotron p{
+    padding-bottom: 50px;
+}
+
 .home__body__contentMiddle__center {
     padding: 0 10px;
     min-height: 20px;
